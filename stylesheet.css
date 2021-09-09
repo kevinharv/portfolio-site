@@ -44,18 +44,18 @@ body {
 .background-details{
     /* border: 3px yellow solid; */
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2); */
     padding: 5%;
 }
 .aspirations{
     /* border: 3px pink solid; */
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2); */
     padding: 5%;
 }
 
 .aboutQuote {
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2); */
 }
