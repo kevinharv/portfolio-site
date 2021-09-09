@@ -1,0 +1,59 @@
+:root {
+    --background: #353c4954;
+}
+
+.aboutMe, .aboutMeHeading {
+    /* border: 3px red solid; */
+    margin: 10px;
+    padding: 8px;
+    width: 50%;
+    
+}
+
+.aboutMe{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 78vh;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.aboutImg {
+    height: 103vh;
+    padding: 5%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 0%;
+    left: 50%;
+}
+
+.aboutImg > img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border-color: black;
+    box-shadow: 10px -5px 8px 10px rgba(0, 0, 0, 0.2);
+}
+.background-details{
+    /* border: 3px yellow solid; */
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+}
+.aspirations{
+    /* border: 3px pink solid; */
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+    padding: 5%;
+}
+
+.aboutQuote {
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 4px 8px 10px rgba(0, 0, 0, 0.2);
+}
