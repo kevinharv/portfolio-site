@@ -27,20 +27,36 @@ body, html {
   
 .homeInfo {
     border-radius: 10% solid red;
+    position: relative;
 }
 
 .bg {
-    /* The image used */
-    background-image: url("/images/home_background01.jpg");
+    height: calc(100vh - 57px);
+    /* overflow: hidden; */
+    width: 100%;
     filter: blur(3px);
+    z-index: 2;
+}
 
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
+.bg > img{
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: contain; */
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.homeHeader {
+    color: white;
+    font-size: 1000%;
+    background: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0) 75%);
+    z-index: 3;
+    position: absolute;
+    padding: 100px;
+    top: calc(30% + 50px);
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .aboutImg {
