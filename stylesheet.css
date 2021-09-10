@@ -25,6 +25,10 @@ body, html {
     height: 100%;
 }
   
+.homeInfo {
+    border-radius: 10% solid red;
+}
+
 .bg {
     /* The image used */
     background-image: url("/images/home_background01.jpg");
