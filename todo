@@ -1,5 +1,7 @@
+
 TODO
     Build out structure (pages, primary content, etc)
+    Build scalability
     Add design with Bootstrap CSS library
     Add functionality with future projects
     Containerize for deployment
