@@ -1,0 +1,37 @@
+:root {
+    --background: #353c4954;
+}
+
+body {
+    background-color: var(--background);
+}
+
+body, html {
+    height: 100%;
+}
+
+.connectHeader {
+    padding: 2%;
+}
+
+.icon {
+    width: 100%;
+    margin: 2%;
+    justify-items: center;
+}
+
+.iconLink {
+    height: 25%;
+    width: 5%;
+    margin: 2%;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.connectBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

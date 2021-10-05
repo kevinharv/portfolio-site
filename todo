@@ -6,9 +6,6 @@ TODO
     Containerize for deployment
     Deploy in docker
 
-
-
-
 STRUCTURE
     1. Homepage - contains basic landing page and buttons for other pages
     2. About Page - contains information about myself and my aspirations/achievements
